@@ -1,0 +1,26 @@
+{
+  "name": "static-vars",
+  "description": "Provides a static global value which can be shared between modules.",
+  "keywords": [
+    "Global",
+    "Static",
+    "Shared"
+  ],
+  "author": "Orgun109uk <orgun109uk@gmail.com>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orgun109uk/static-vars.git"
+  },
+  "scripts": {
+    "test": "mocha ./tests/",
+    "eslint": "eslint index.js ./lib ./tests",
+    "jshint": "jshint index.js ./lib ./tests"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "unit.js": "^2.0.0"
+  }
+}
